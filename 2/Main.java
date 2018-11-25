@@ -20,8 +20,7 @@ public class Main {
 			System.out.println(studentsList.get(i));
 		}
 
-		FileOperator record1;
-		record1 = new FileOperator(studentsList, "java02oct.txt");
+		FileOperator record1 = new FileOperator(studentsList, "java02oct.txt");
 		record1.writeFile();
 		System.out.println("From File:");
 		record1.readFile();
